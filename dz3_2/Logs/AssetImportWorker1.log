@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62129
+52222
 Successfully changed project path to: /Users/sergei/dz3/dz3_2
 /Users/sergei/dz3/dz3_2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/sergei/dz3/dz3_2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 586457288 [EditorId] 586457288 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1337115896 [EditorId] 1337115896 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 586457288 [EditorId] 586457288 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1337115896 [EditorId] 1337115896 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 135.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,140 +73,140 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56577
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001625 seconds.
+Registered in 0.000915 seconds.
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 97 ms
+Android Extension - Scanning For ADB Devices 85 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (174ms)
+				InitializePlatformSupportModulesInManaged (155ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (50ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002645 seconds.
+Registered in 0.002942 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x130030000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x2907a0000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb0e600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x126085c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140350000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x290070000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eade200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file data-0x164916e00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140350000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file data-0x2881b8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1403a8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x2881d0000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140400000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x288120000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140350000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x148708000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13f192200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file data-0x137a24200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eade200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x137a2b800 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1403c0000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x148800000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1403f0000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x148708000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1403d0000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file data-0x148888000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140440000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x1488d8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb29c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file data-0x137a39000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb2e800 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file data-0x137a3e400 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1205a8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x148980000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120600000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file data-0x148888000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb29c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file data-0x126085c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb2e600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file data-0x1260c0600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb32200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file data-0x137a0be00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb36e00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x164960c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb32200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file data-0x1260c0600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb40200 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file data-0x126085c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e089400 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file data-0x1260c0600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1206b8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x288260000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120600000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x2882a8000 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e088a00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file data-0x1260eca00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13e090600 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x137b78800 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x13eb44c00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file data-0x137b7ec00 doesn't match image /Users/sergei/dz3/dz3_2/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/sergei/dz3/dz3_2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/sergei/dz3/dz3_2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.682 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (683ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (679ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (215ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (128ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (129ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -215,12 +215,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (321.6 KB). Loaded Objects now: 3836.
-Memory consumption went from 110.2 MB to 109.9 MB.
-Total: 2.422625 ms (FindLiveObjects: 0.111917 ms CreateObjectMapping: 0.038792 ms MarkObjects: 2.220833 ms  DeleteObjects: 0.050416 ms)
+Memory consumption went from 110.3 MB to 109.9 MB.
+Total: 2.415541 ms (FindLiveObjects: 0.097333 ms CreateObjectMapping: 0.038375 ms MarkObjects: 2.213625 ms  DeleteObjects: 0.065500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -232,3 +232,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3456726.302630 seconds.
+  path: Assets/Prefabs/Home.prefab
+  artifactKey: Guid(22e92f0abcf49418691409ecb975c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Home.prefab using Guid(22e92f0abcf49418691409ecb975c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13101f4a77a5a868c85b9ab33c571b14') in 0.147571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Tree Variant Variant.prefab
+  artifactKey: Guid(43bac7fac5fa44c78a69c8a436b2356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tree Variant Variant.prefab using Guid(43bac7fac5fa44c78a69c8a436b2356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c2ad429bf8b62c8bb04a203ea9973f') in 0.008443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(b6368aac6932e4da4b5df471a8af2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(b6368aac6932e4da4b5df471a8af2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7157dc1be8bfaebc838009a1699d12d8') in 0.001071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/MainCamera Variant.prefab
+  artifactKey: Guid(6fe99ae663fa8455f83d22f451c6b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MainCamera Variant.prefab using Guid(6fe99ae663fa8455f83d22f451c6b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36700fc283e591c42805d420836a8e4d') in 0.002472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002605 seconds.
+  path: Assets/Prefabs/Tree Variant.prefab
+  artifactKey: Guid(ba20ab520116e2844a33e0e67179ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tree Variant.prefab using Guid(ba20ab520116e2844a33e0e67179ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d43c6f30eb08b29221693e4bdd5c73') in 0.007825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Prefabs/ParentAngrar Variant.prefab
+  artifactKey: Guid(f749e2fb7217a4d3584793010aec345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ParentAngrar Variant.prefab using Guid(f749e2fb7217a4d3584793010aec345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ffa96a65c9ee1744bbbe2d3ec5cb80') in 0.003098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Prefabs/Level2 Variant.prefab
+  artifactKey: Guid(3f270a4afe49c410c90b91fc3e6834ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level2 Variant.prefab using Guid(3f270a4afe49c410c90b91fc3e6834ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441f12e1d73a8ffac504686536ca8c46') in 0.006296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/GroundUnderFeet Variant.prefab
+  artifactKey: Guid(7860dc4086ae5409dab84b0c764f75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundUnderFeet Variant.prefab using Guid(7860dc4086ae5409dab84b0c764f75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582d3478df5d29b919cf1bc77ee2484') in 0.001750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Prefabs/Road_block_v1 Variant.prefab
+  artifactKey: Guid(6b6d0a8c1050a46858d9478aadffd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road_block_v1 Variant.prefab using Guid(6b6d0a8c1050a46858d9478aadffd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04919e9aefe59bf5daa0144241134924') in 0.002413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/ParentBarrel Variant.prefab
+  artifactKey: Guid(2ae3c0dd971344e369c391a707d3d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ParentBarrel Variant.prefab using Guid(2ae3c0dd971344e369c391a707d3d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf0fe9795411fa09f86c845163876c4') in 0.002839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.144000 seconds.
+  path: Assets/Prefabs/Cube (2).prefab
+  artifactKey: Guid(193c70b819ad348e2b36d9222d7c4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube (2).prefab using Guid(193c70b819ad348e2b36d9222d7c4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511194f95c81e705233a04e351fa28af') in 0.036702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001728 seconds.
+  path: Assets/Prefabs/Cube (3).prefab
+  artifactKey: Guid(6c27bfc7174e9455da77cc8184fd695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube (3).prefab using Guid(6c27bfc7174e9455da77cc8184fd695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2413ae0a5de71713954d9204a6448545') in 0.006998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(23ff43c9a4fce46bd932105ac4dd40b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(23ff43c9a4fce46bd932105ac4dd40b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd3b133b39ac20d5467691523d169ed') in 0.002726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Directional Light.prefab
+  artifactKey: Guid(1c6437decf41845ac988b99cf0d77d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Directional Light.prefab using Guid(1c6437decf41845ac988b99cf0d77d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d932ba13777ac3a6766f50a307e1cd') in 0.002150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Prefabs/Cube (4).prefab
+  artifactKey: Guid(b7ca23d7e4a0543c5bda9483d557c548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube (4).prefab using Guid(b7ca23d7e4a0543c5bda9483d557c548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bd3fcbaf52d64b15ce674cd683bdb8') in 0.007879 seconds 
